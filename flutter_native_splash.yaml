@@ -1,0 +1,29 @@
+flutter_native_splash:
+  color: "#ffffff"
+  image: images/splash_image.png
+  branding: images/splash_brand.png
+
+  # Dark Mode
+  color_dark: "#000000"
+  image_dark: images/splash_image.png
+  branding_dark: images/splash_brand_dark.png
+
+  android_12:
+    color: "#ffffff"
+    image: images/splash_image_android12.png
+    branding: images/splash_brand.png
+
+    # dark mode
+    color_dark: "#000000"
+    image_dark: images/splash_image_android12.png
+    branding_dark: images/splash_brand_dark.png
+
+  android: true
+  ios: true
+  web: true
+
+  android_gravity: center
+  ios_content_mode: center
+  web_image_mode: center
+
+  fullscreen: true
